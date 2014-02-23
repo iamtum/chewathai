@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Lib*/
+.btn_link{ background:red; display:table-cell; }
+
+.test > div:first-child{ background:green}
+.test > div:first-child+div{ background:yellow}
+
+/*Big banner*/
+.bigbanner > img{ width:100%;}
+
+/* Progress */
+.prog_nav > div > div > img{ width:100%; height:auto;}
+.list_pic_prog{ list-style-type:none; margin:0; padding:0; width:100%;}
+.list_pic_prog > li{ width:50%; float:left; margin-bottom:0.5em;}
+.list_pic_prog > li > img{width:95%; height:auto;}
+
+.prog_list_nav{ list-style-type:none; margin:0; padding:0;}
+@media (max-width: 768px) {
+	/*.prog_pic,.prog_pic{float:none !important; display:block !important; width:100% !important;}*/
+}
