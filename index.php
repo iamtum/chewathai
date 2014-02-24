@@ -8,9 +8,15 @@
 
 <div class="container">
 	<div class="bigbanner">
-    	<img src="image/bigbanner.jpg" > 
+    	<img src="image/bigbanner.jpg" /> 
     </div>
-    <div class="row">
+    <div class="branch" style="background:#817f79;">
+        <div class="row">
+            <div class="col-md-3"><img src="image/brance/1.gif" /></div>
+            <div class="col-md-3"><img src="image/brance/2.gif" /></div>
+            <div class="col-md-3"><img src="image/brance/3.gif" /></div>
+            <div class="col-md-3"><img src="image/brance/4.gif" /></div>
+        </div>
     </div>
 
   <div>News adn Promotion</div>
