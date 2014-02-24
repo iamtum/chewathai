@@ -1,0 +1,36 @@
+@charset "utf-8";
+html ,body{ margin:0px; padding:0px;  }
+body { font-family:PSL Display Pro;  font-size:20px; color:#736b69; background:#f0e9de; }
+body, input, textarea {  }
+
+/* RESET */
+
+ul, ol { margin:0px; padding:0px; list-style:none; }
+h1, h2, h3, h4, h5, h6{ margin:0px; padding:0px; }
+td, th { text-align:left; }
+button {  font-size:12px !important; }
+a { text-decoration:none; color:#757575; }
+a:hover { color:#ffd900; }
+.yellow { color:#ffd900; }
+.black { color:#000; }
+.green { color:#10971e; }
+.gray { color:#bdbdbd; }
+.normal { font-weight:normal; }
+
+/* IMG */
+img { border:0px; }
+
+/* CLEAR */
+
+body > header:after, 
+[id^=content]:after,
+footer > div:after {
+	clear: both ;
+	content:""; 
+	display: block; 
+	height: 0;
+	visibility: hidden; 
+}
+
+
+/* STRUCTURE */

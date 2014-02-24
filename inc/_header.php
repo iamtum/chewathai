@@ -4,13 +4,11 @@
 	// ADD MORE JS FILE
 	$js = array('main.js');
 ?>
-<?php include("inc/header.php") ?>
+<?php include("header.php") ?>
 
 <div class="container">
 	<div class="bigbanner">
-    	<img src="image/bigbanner.jpg" > 
-    </div>
-    <div class="row">
+    	<img src="../image/bigbanner.jpg" > 
     </div>
 
   <div>News adn Promotion</div>
@@ -41,10 +39,10 @@
                             <div class="col-xs-6"><img src="image/data.jpg" width="200" height="200"></div>
                         </div>-->
                         <ul class="list_pic_prog clearfix">
-                        	<li><img src="image/data.jpg" width="200" height="200"></li>
-                            <li><img src="image/data.jpg" width="200" height="200"></li>
-                            <li><img src="image/data.jpg" width="200" height="200"></li>
-                            <li><img src="image/data.jpg" width="200" height="200"></li>
+                        	<li><img src="../image/data.jpg" width="200" height="200"></li>
+                            <li><img src="../image/data.jpg" width="200" height="200"></li>
+                            <li><img src="../image/data.jpg" width="200" height="200"></li>
+                            <li><img src="../image/data.jpg" width="200" height="200"></li>
                         </ul>
                         <a href="#" class="btn_link">more info</a>
                     </div>
@@ -72,4 +70,4 @@
     </div>
 </div>
 in body
-<?php include("inc/footer.php") ?>
+<?php include("footer.php") ?>

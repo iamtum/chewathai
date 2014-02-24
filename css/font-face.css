@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'PSL Display Pro';
+    src: url('../fonts/psl-display/PSL029pro.eot');
+    src: url('../fonts/psl-display/PSL029pro.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/psl-display/PSL029pro.woff') format('woff'),
+         url('../fonts/psl-display/PSL029pro.ttf') format('truetype'),
+         url('../fonts/psl-display/PSL029pro.svg#psl-display-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PSL Display Pro';
+    src: url('../fonts/psl-display/PSL029pro.eot');
+    src: url('../fonts/psl-display/PSL029pro.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/psl-display/PSL029pro.woff') format('woff'),
+         url('../fonts/psl-display/PSL029pro.ttf') format('truetype'),
+         url('../fonts/psl-display/PSL029pro.svg#psl-display-xbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}

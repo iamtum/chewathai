@@ -1,7 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
-
+.container {
+	background:#f6f2ec;  padding:0px;
+}
 /*Lib*/
 .btn_link{ background:red; display:table-cell; }
 
@@ -9,7 +11,7 @@
 .test > div:first-child+div{ background:yellow}
 
 /*Big banner*/
-.bigbanner > img{ width:100%;}
+.bigbanner > img { width:100%;}
 
 /* Progress */
 .prog_nav > div > div > img{ width:100%; height:auto;}
