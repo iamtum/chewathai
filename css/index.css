@@ -1,9 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-.container {
-	background:#f6f2ec;  padding:0px;
-}
 /*Lib*/
 .btn_link{ background:red; display:table-cell; }
 
@@ -11,7 +8,7 @@
 .test > div:first-child+div{ background:yellow}
 
 /*Big banner*/
-.bigbanner > img { width:100%;}
+.bigbanner > img { width:100%; margin-top:30px;}
 
 /* Progress */
 .prog_nav > div > div > img{ width:100%; height:auto;}
@@ -20,6 +17,21 @@
 .list_pic_prog > li > img{width:95%; height:auto;}
 
 .prog_list_nav{ list-style-type:none; margin:0; padding:0;}
+
+
+
+
+.branch { width:100%; background:#827f7a; height:160px; padding:2% }
+.branch  ul { display:block; margin:auto; width:100%;  }
+.branch  ul li {  float:left; border-right:1px #c3c2be solid; padding:0 10px 0 10px; }
+.branch  ul li:last-child { border:none; }
+
+
+
+/* News */
+.hnew { width:88%; height:50px; margin:auto; display:block; margin-top:20px; text-align:center; border-bottom:1px #e1ded9 solid; }
+
+
 @media (max-width: 768px) {
 	/*.prog_pic,.prog_pic{float:none !important; display:block !important; width:100% !important;}*/
 }

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'PSLxDisplayRegular';
+    src: url('pslxdisplay.eot');
+    src: url('pslxdisplay.eot') format('embedded-opentype'),
+         url('pslxdisplay.woff') format('woff'),
+         url('pslxdisplay.ttf') format('truetype'),
+         url('pslxdisplay.svg#PSLxDisplayRegular') format('svg');
+}
