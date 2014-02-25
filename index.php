@@ -42,10 +42,10 @@
     <div class="row">
     	<div class="col-md-6">
         	<div>
-            	<div class="row">
-                	<div class="col-sm-6"><a href="javascript:;"><img src="image/img1.jpg" style="border:14px #fff solid; margin:0 auto;" /></a></div>
-                    <div class="col-sm-6">
-                        <h3>Sport Day and WingWOW Party Chewathai,TEI,Getco</h3>
+            	<div class="news row">
+                	<div class="col-xs-5 col-sm-4 col-md-6"><a href="javascript:;"><img src="image/img1.jpg" style="border:14px #fff solid; margin:0 auto;" /></a></div>
+                    <div class="col-xs-7 col-sm-8 col-md-6">
+                        <h3>aa Sport Day and WingWOW Party Chewathai,TEI,Getco</h3>
                         <p>กิจกรรมสันทนาการระหว่างบริษัทชีวาทัย และบริษัทในเครื่อ TEI,GETCO ร่วมสร้างสามัคคีภายในงานมีการจัดการแข่งขันกีฬา</p>
                         <a href="javascript:;"><img src="image/btn/more.gif" /></a>
                     </div>

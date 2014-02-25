@@ -32,6 +32,9 @@
 .hnew { width:88%; height:50px; margin:auto; display:block; margin-top:20px; text-align:center; border-bottom:1px #e1ded9 solid; }
 
 
-@media (max-width: 768px) {
+@media (max-width: 620px) {
 	/*.prog_pic,.prog_pic{float:none !important; display:block !important; width:100% !important;}*/
+    .news > div{ float:none; width:100%;}
+    .news > div:first-child > a{ display:block;}
+    .news > div:first-child > a > img{ width:100%;}
 }
