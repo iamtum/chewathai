@@ -1,4 +1,133 @@
 @charset "utf-8";
 /* CSS Document */
-.content-area{ border:20px solid #7d7d7d;}
-
+.mgB20{
+	margin-bottom:20px;
+}
+.w100p{
+	width:100%;
+    height:auto;
+}
+.tC{
+	text-align:center;
+}
+.col-gold{
+	color:#a79c79;
+}
+.bxS{
+	box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+}
+.imgC{
+	margin:0 auto;
+    display:block;
+}
+.content-area{ 
+    border:20px solid #7d7d7d;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+.title-page{
+	margin-bottom:20px;
+}
+.two-col{
+    
+}
+    .two-col > div{
+        float:left;
+    }
+    .two-col > div:first-child{
+        background:#efe7dc;
+        width:70%;
+    }
+    .two-col > div:first-child + div{
+        background:#f7f2ec;
+        width:30%;
+    }
+.menu-hor{
+	list-style-type:none;
+    margin:0;
+    padding:0 10px;
+} 
+    .menu-hor > li{
+        
+    } 
+        .menu-hor > li > a{
+            display:block;
+            border-bottom:1px solid #d2cdc7;
+            padding:10px 20px;
+            font-size:120%;
+        } 
+        .menu-hor > li > a:hover,
+        .menu-hor > li > a.current
+        {
+            color:#a39072;	
+        }
+        .menu-hor > li > a.current{
+        	background:url(../image/icon/arrow01.gif) no-repeat left center;
+        }
+.dataTab{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    padding:20px; 
+}        
+    .dataTab > div {
+        
+    }        
+        .dataTab > div > h1{
+            
+        }  
+.headWitdhDate{
+    margin-top:20px;	
+}              
+    .headWitdhDate > h2{
+        color:#cb1c1b;
+        float:left;
+        font-size:150%;
+        font-weight:bold;
+    }              
+    .headWitdhDate > span{
+        float:right;
+    }       
+.box-data01{
+	margin:20px;
+}
+    .box-data01 > h2{
+        color:#cb1c1b;
+        margin-bottom:5px;
+        font-size:150%;
+        font-weight:bold;
+    }
+    .box-data01 > p{
+        background:#e8e2d9;
+        padding:15px;
+    }
+        .box-data01 > p > span{
+            color:#cb1c1b;
+            font-weight:bold;
+        }
+.form-input01{
+	
+}
+    .form-input01 input,
+    .form-input01 textarea,
+    .form-input01 button
+    {
+        margin-bottom:10px;
+        font-size:120%;
+    }
+.board{
+	
+}    
+    .board img{
+        display:block;
+        margin-bottom:20px;
+    }    
+@media (max-width: 768px) {
+.two-col{
+    
+}
+    .two-col > div{
+        float:none;
+        width:100% !important;
+    }	
+}

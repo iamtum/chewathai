@@ -2,7 +2,7 @@
 html ,body{ margin:0px; padding:0px;  }
 body { font-family:PSL Display Pro;  font-size:20px; color:#8a8686; background:#f0e9de; }
 body, input, textarea {  }
-
+p{ line-height:120%;}
 /* RESET */
 
 ul, ol { margin:0px; padding:0px; list-style:none; }

@@ -1,6 +1,6 @@
 <?php
 	// ADD MORE CSS FILE
-	$css = array('index.css');
+	$css = array('indexx.css');
 	// ADD MORE JS FILE
 	$js = array('main.js');
 ?>
@@ -8,11 +8,17 @@
 
 
 <div class="container">
-	<select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
+	<!-- <select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
       <option value="1">TH</option>
       <option value="2">EN</option>
+<<<<<<< HEAD
     </select>
     <nav class="mainmenu">
+=======
+    </select> -->
+    <!--  style="display:none;"  border:1px red solid  -->
+    <!-- <nav class="mainmenu">
+>>>>>>> 94567d3a3fab3242bb47b6bac8f254740bfaf49d
     	<ul>
             <li><a href="index.php" class="active">HOME</a></li>
             <li><a href="about.php">ABOUT CHEWATHAI</a></li>
@@ -22,11 +28,16 @@
             <li><a href="news.php">NEWS &amp; PROMOTION</a></li>
             <li><a href="contact.php">CONTACT US</a></li>
         </ul>
-    </nav>
-	<div class="bigbanner">
+    </nav> -->
+	<!-- <div class="bigbanner">
     	<img src="image/bigbanner.jpg" /> 
+<<<<<<< HEAD
     </div>
     <div class="branch">
+=======
+    </div> -->
+    <!-- <div class="branch" style="display:none;">
+>>>>>>> 94567d3a3fab3242bb47b6bac8f254740bfaf49d
         <ul>
             <li><a href="javascript:;"><img src="image/brance/1.gif" /></a></li>
             <li><a href="javascript:;"><img src="image/brance/2.gif" /></a></li>
@@ -34,10 +45,15 @@
             <li><a href="javascript:;"><img src="image/brance/4.gif" /></a></li>
             <li><a href="javascript:;"><img src="image/brance/5.gif" /></a></li>
         </ul>
-    </div>
+    </div> -->
 
+<<<<<<< HEAD
   <header class="hnew"><h2>NEWS <span class="red">&amp;</span> PROMOTION</h2></header>
   <div class="content" style="margin-top:40px;">
+=======
+  <!-- <header class="hnew"><h2>NEWS <span class="red">&amp;</span> PROMOTION</h2></header> -->
+  <!-- <div style="width:88%; margin:40px auto;">
+>>>>>>> 94567d3a3fab3242bb47b6bac8f254740bfaf49d
     <div class="row">
     	<div class="col-md-6">
         	<div>
@@ -80,10 +96,17 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
   
   
      
     <div class="row">
+=======
+  </div> -->
+  
+     
+    <!-- <div class="row">
+>>>>>>> 94567d3a3fab3242bb47b6bac8f254740bfaf49d
     	<div class="col-md-6">
         	<h2 class="htext">Progress</h2>
             <div class="progressbox">
@@ -150,8 +173,12 @@
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
     </footer>
     
+=======
+    </div> -->
+>>>>>>> 94567d3a3fab3242bb47b6bac8f254740bfaf49d
 </div>
 
 
