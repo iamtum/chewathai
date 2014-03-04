@@ -1,6 +1,6 @@
 <?php
 	// ADD MORE CSS FILE
-	$css = array('index.css');
+	$css = array('indexx.css');
 	// ADD MORE JS FILE
 	$js = array('main.js');
 ?>
@@ -8,12 +8,12 @@
 
 
 <div class="container">
-	<select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
+	<!-- <select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
       <option value="1">TH</option>
       <option value="2">EN</option>
-    </select>
+    </select> -->
     <!--  style="display:none;"  border:1px red solid  -->
-    <nav class="mainmenu">
+    <!-- <nav class="mainmenu">
     	<ul>
             <li><a href="javascript:;">HOME</a></li>
             <li><a href="javascript:;">ABOUT CHEWATHAI</a></li>
@@ -23,11 +23,11 @@
             <li><a href="javascript:;">NEWS &amp; PROMOTION</a></li>
             <li><a href="javascript:;">CONTACT US</a></li>
         </ul>
-    </nav>
-	<div class="bigbanner">
+    </nav> -->
+	<!-- <div class="bigbanner">
     	<img src="image/bigbanner.jpg" /> 
-    </div>
-    <div class="branch" style="display:none;">
+    </div> -->
+    <!-- <div class="branch" style="display:none;">
         <ul>
             <li><a href="javascript:;"><img src="image/brance/1.gif" /></a></li>
             <li><a href="javascript:;"><img src="image/brance/2.gif" /></a></li>
@@ -35,10 +35,10 @@
             <li><a href="javascript:;"><img src="image/brance/4.gif" /></a></li>
             <li><a href="javascript:;"><img src="image/brance/5.gif" /></a></li>
         </ul>
-    </div>
+    </div> -->
 
-  <header class="hnew"><h2>NEWS <span class="red">&amp;</span> PROMOTION</h2></header>
-  <div style="width:88%; margin:40px auto;">
+  <!-- <header class="hnew"><h2>NEWS <span class="red">&amp;</span> PROMOTION</h2></header> -->
+  <!-- <div style="width:88%; margin:40px auto;">
     <div class="row">
     	<div class="col-md-6">
         	<div>
@@ -65,10 +65,10 @@
             </div>
         </div>
     </div>
-  </div>
+  </div> -->
   
      
-    <!--<div class="row">
+    <!-- <div class="row">
     	<div class="col-md-6">
         	<h2>Progress</h2>
             <div style="background:#CCC; padding:20px;">
@@ -105,7 +105,7 @@
                 <div class="pull-right">list nav</div>
             </div>
         </div>
-    </div>-->
+    </div> -->
 </div>
 <!--<div style="width:1000px;">
 <div class="row">
