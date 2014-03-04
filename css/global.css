@@ -9,6 +9,8 @@ ul, ol { margin:0px; padding:0px; list-style:none; }
 h1, h2, h3, h4, h5, h6{ margin:0px; padding:0px; }
 h2 { font-size:42px; text-transform:uppercase; line-height:30px; }
 h3 { font-size:38px; text-transform:uppercase; line-height:30px; }
+h4 { font-size:24px; font-weight:bold; text-transform:uppercase; line-height:30px; }
+
 
 
 td, th { text-align:left; }
@@ -20,6 +22,7 @@ a:hover { color:#8a8686; text-decoration:none; }
 .green { color:#10971e; }
 .gray { color:#bdbdbd; }
 .red { color:#ec0000; }
+.gray2 { color:#34312c; }
 .normal { font-weight:normal; }
 
 /* IMG */
@@ -27,7 +30,7 @@ img { border:0px; }
 
 /* CLEAR */
 
-body > header:after, 
+/*body > header:after, 
 [id^=content]:after,
 footer > div:after {
 	clear: both ;
@@ -35,10 +38,13 @@ footer > div:after {
 	display: block; 
 	height: 0;
 	visibility: hidden; 
-}
+}*/
 
 .container {
 	background:#f6f2ec;  padding:0px;
+}
+.content {
+	width:88%; margin:auto; 
 }
 /* STRUCTURE */
 /* TOP DROP DOWN */
@@ -146,6 +152,11 @@ footer > div:after {
 /*NAV*/
 .container .mainmenu { padding-top:30px; clear:both; }
 .container .mainmenu ul { margin-left:-37px;  }
-.container .mainmenu ul li { float:left; margin-left:37px; margin-right:0px;   }
+.container .mainmenu ul li { float:left; margin-left:37px; margin-right:0px;  }
 .container .mainmenu ul li a { font-size:22px;  display:block; color:#8a8686; line-height:40px; padding:0 25px 0 25px; }
-.container .mainmenu ul li a:hover { background:#9f9484; color:#fff; }
+.container .mainmenu ul li a:hover, .container .mainmenu ul li a.active { background:#9f9484; color:#fff; }
+
+/*FOOTER*/
+footer { background:#cec1b0; width:100%; margin-top:0px; }
+footer > .content { padding:10px 0 10px 0; }
+.copyright { font-size:24px; color:white; }

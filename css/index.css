@@ -2,24 +2,27 @@
 /* CSS Document */
 
 /*Lib*/
-.btn_link{ background:red; display:table-cell; }
+.btn_link { background:#9a9a9a; font-weight:bold; display:table-cell; padding:0 5px 0 5px; color:white; }
+.btn_link:hover {background:red; color:white; }
 
-.test > div:first-child{ background:green}
-.test > div:first-child+div{ background:yellow}
 
 /*Big banner*/
 .bigbanner > img { width:100%; margin-top:30px;}
 
 /* Progress */
+.progressbox { background:#eae5df; padding:20px; }
 .prog_nav > div > div > img{ width:100%; height:auto;}
-.list_pic_prog{ list-style-type:none; margin:0; padding:0; width:100%;}
+.list_pic_prog{ list-style-type:none; margin:0; padding:0; width:100%; margin-bottom:22px;}
 .list_pic_prog > li{ width:50%; float:left; margin-bottom:0.5em;}
 .list_pic_prog > li > img{width:95%; height:auto;}
 
 .prog_list_nav{ list-style-type:none; margin:0; padding:0;}
 
-
-
+.vdo { text-align:center; border:20px solid #5a5a5a; margin-bottom:15px; }
+.vdo img { width:100%; }
+.nav-vdo li  { float:left; }
+.nav-vdo li a { display:block; margin-left:10px; width:25px; height:25px; background:#940000; }
+.bgpink { background:#ce403e !important; }
 
 .branch { width:100%; background:#827f7a; height:160px; padding:2% }
 .branch  ul { display:block; margin:auto; width:100%;  }
@@ -30,7 +33,21 @@
 
 /* News */
 .hnew { width:88%; height:50px; margin:auto; display:block; margin-top:20px; text-align:center; border-bottom:1px #e1ded9 solid; }
+.htext { border-bottom:1px #e1ded9 solid; margin-bottom:20px; height:34px; }
+.prog_list_nav li a { font-size:22px; display:block; height:34px; border-bottom:1px #a7a6a1 solid; }
+.prog_list_nav li a:hover { color:red; }
+.nav_arrow li { float:left; margin:30px 0 30px 5px; }
 
+
+.about-left { background:#efe7dc; padding:20px; }
+.about-left h4 { font-size:28px; color:#a59c7b;  }
+.about-left p { text-align:center; }
+.about-right { background:#f7f2ec; padding:20px; height:439px; }
+.about-right li a { display:block; color:#696562; font-size:24px; width:200px; height:40px; border-bottom:1px gray solid; }
+
+.about-right ul li a img { opacity:0; }
+.about-right li a:hover  { color:#a59c7b; }
+.about-right li a:hover img { opacity:1;  }
 
 @media (max-width: 620px) {
 	/*.prog_pic,.prog_pic{float:none !important; display:block !important; width:100% !important;}*/
